@@ -1,23 +1,23 @@
-package types
+///package types
 
 // Money представляет собой денежную сумму в минимальных единицах (центы, копейки, дирамы и т.д.).
-type Money int64
+//type Money int64
 
 // Currency представляет код валюты
-type Currency string
+//type Currency string
 
 // Status представляет собой статус платежа
-type Status string
+//type Status string
 
 //Предопределённые статусы платежей.
-const (
+/*const (
 	StatusOk Status = "OK"
 	StatusFail Status = "FAIL"
 	StatusIprogress Status = "INPROGRESS"
-)
+)*/
 
 // Category представляет собой категорию, в которой был совершён платёж (авто, аптеки, рестораны и т.д.).
-type Category string
+/*type Category string
 
 // Коды валют
 const (
@@ -53,5 +53,5 @@ type PaymentSource struct {
 	Type    string
 	Number  PAN
 	Balance Money
-}
+}*/
 //Payment NotFound
